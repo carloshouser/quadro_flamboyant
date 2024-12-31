@@ -13,7 +13,7 @@ users = {
     "Ederson": {"senha": "@hebron11", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Edson": {"senha": "@siloe21", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Felipe Carneiro": {"senha": "@tarsis5", "permissoes": ["a", "b", "c", "d", "e", "f"]},
-    "Francinco Lezcano": {"senha": "@mambre54", "permissoes": ["a", "b", "c", "d", "e", "f"]},
+    "Francisco Lezcano": {"senha": "@mambre54", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Gilmar": {"senha": "@betel7", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Giovani": {"senha": "@jerico20", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "José Francisco": {"senha": "@galileia5", "permissoes": ["a", "b", "c", "d", "e", "f"]},

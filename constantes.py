@@ -1,4 +1,4 @@
-# Estilização
+# Estilização.
 estilo = """
         <style>
 

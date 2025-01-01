@@ -1,4 +1,15 @@
-# Teste
+# Dados de deploy
+"""  
+Repositorio:
+  carloshouser/quadro_flamboyant
+Branch: 
+  main
+main file path:
+  main.py
+app url:  
+  https://flamboyant-anuncios.streamlit.app/
+  https://   flamboyant-anuncios   .streamlit.app/
+"""
 import streamlit as st
 
 import base64

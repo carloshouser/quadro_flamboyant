@@ -1,64 +1,69 @@
 # Estilização.
 estilo = """
         <style>
+        /* Corpo do aplicativo */
+        body {
+            background-color: #F5F7FA;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-        /* Botões principais */
+        /* Títulos */
+        h1 {
+            color: #2C3E50;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #34495E;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Cartões */
+        .card {
+            background-color: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Botões */
         .stButton>button {
-            background-color: #007BFF; /* Azul padrão */
-            color: #ffffff; /* Texto branco */
-            border-radius: 10px;
+            background-color: #3498DB;
+            color: white;
+            border-radius: 8px;
             border: none;
-            padding: 10px 15px;
             font-size: 16px;
             font-weight: bold;
-            margin: 10px auto;
-            transition: all 0.3s ease;
+            padding: 12px;
+            transition: all 0.3s ease-in-out;
         }
         .stButton>button:hover {
-            background-color: #0056b3; /* Azul mais escuro */
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+            background-color: #2980B9;
+            transform: scale(1.02);
         }
 
         /* Links */
         a {
-            color: #FFD700; /* Links dourados */
+            color: #1ABC9C;
             text-decoration: none;
             font-weight: bold;
         }
         a:hover {
-            color: #FFC107; /* Alteração de tom ao passar o mouse */
-            text-decoration: underline;
+            color: #16A085;
         }
 
-        /* Títulos */
-        h1, h2, h3 {
-            color:rgb(236, 235, 225); /* Dourado */
-            text-align: center;
-        }
-
-        /* Estilizando o texto de boas-vindas com fundo claro */
-
-
-        /* Layout de cartões */
-        .stMarkdown {
-            background-color:rgb(205, 207, 221); /* Fundo dos cartões */
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-            text-align: left;
-        }
-
-        /* Iframe para PDFs */
+        /* PDFs */
         iframe {
-            border: 2px solid #FFD700; /* Borda dourada ao redor do PDF */
+            border: 2px solid #E0E0E0;
             border-radius: 8px;
             margin-top: 20px;
         }
-
         </style>
-        """
+    """
 
 
 # Dados fictícios de usuários e permissões
@@ -88,7 +93,7 @@ usuarios = {
     "Arileide": {"senha": "@sarepta56", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Arlene": {"senha": "@tiberias54", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Bibiane": {"senha": "@galatia32", "permissoes": ["a", "b", "c", "d", "e", "f"]},
-    "Varina": {"senha": "@bereia2", "permissoes": ["a", "b", "c", "d", "e", "f"]},
+    "Carina": {"senha": "@bereia2", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Clarice": {"senha": "@jerusalem13", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Studzuski": {"senha": "@samuel23", "permissoes": ["a", "b", "c", "d", "e", "f"]},
     "Cleusa": {"senha": "@babel58", "permissoes": ["a", "b", "c", "d", "e", "f"]},
